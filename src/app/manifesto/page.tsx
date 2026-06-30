@@ -84,7 +84,7 @@ export default function ManifestoPage() {
                 
                 <Card className="border-border shadow-sm">
                   <CardContent className="p-0">
-                    <Accordion defaultValue="solution" className="w-full">
+                    <Accordion defaultValue={["solution"]} className="w-full">
                       <AccordionItem value="problem" className="border-b px-6">
                         <AccordionTrigger className="text-lg font-semibold hover:no-underline hover:text-primary">
                           The Challenge
